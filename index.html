@@ -1,0 +1,42 @@
+<!-- Those who want to participate in the event can register on this page using the register button. In the
+header section, you can mention the key speakers of the event, the schedule, various events, and so
+on; you can also use links for each of these sections. You can add the details of the speakers,
+venues, and the description of the event you are hosting. Make sure the page looks attractive; use
+suitable background colors, font styles, and font colors. HTML and CSS are the primary tools you
+need to build this page. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Event Name</h1>
+      <nav>
+        <a href="#speakers">Key Speakers</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#events">Events</a>
+      </nav>
+    </header>
+    <main>
+      <h2>About the Event</h2>
+      <p>Description</p>
+      <h2>Key Speakers</h2>
+      <p>Details of the key speakers .</p>
+      <h2>Venue</h2>
+      <p>Details of the venue .</p>
+      <h2>Registration Form</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number" required>
+        <input type="submit" value="Register">
+      </form>
+    </main>
+  </body>
+</html>

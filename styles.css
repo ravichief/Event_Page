@@ -1,0 +1,79 @@
+/* Those who want to participate in the event can register on this page using the register button. In the
+header section, you can mention the key speakers of the event, the schedule, various events, and so
+on; you can also use links for each of these sections. You can add the details of the speakers,
+venues, and the description of the event you are hosting. Make sure the page looks attractive; use
+suitable background colors, font styles, and font colors. HTML and CSS are the primary tools you
+need to build this page. */
+header {
+  background-color: #333;
+  color: rgb(141, 255, 249);
+  padding: 20px;
+}
+body{
+    background-color: rgb(223, 225, 220);
+}
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+nav a {
+  color: rgb(202, 186, 231);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+nav a:hover {
+  text-decoration:underline;
+}
+
+main {
+  margin: 20px;
+}
+h2 {
+  font-size: 24px;
+  color: #141f5b;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+}
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #0c6c75;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="submit"] {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+input[type="submit"] {
+  background-color: #2c3e50;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+input[type="submit"]:hover {
+  background-color: #265269;
+}
+::placeholder {
+  color: #a09b9b;
+  background-color: #f8f9f7;
+}
